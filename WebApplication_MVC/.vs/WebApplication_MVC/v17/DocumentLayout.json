@@ -1,0 +1,446 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\classlibrary1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|solutionrelative:classlibrary1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\classlibrary1\\accountmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|solutionrelative:classlibrary1\\accountmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\classlibrary1\\framework\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|solutionrelative:classlibrary1\\framework\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\code\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\code\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\code\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\code\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\classlibrary1\\framework\\shoponlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F80BE098-99C4-47B9-AA96-93D443ECB2EF}|ClassLibrary1\\Models.csproj|solutionrelative:classlibrary1\\framework\\shoponlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\shared\\_leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\shared\\_leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\models\\messagemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\models\\messagemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T07:07:25.739Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\App.config",
+              "RelativeDocumentMoniker": "ClassLibrary1\\App.config",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\App.config",
+              "RelativeToolTip": "ClassLibrary1\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T10:11:20.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\UserSession.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Code\\UserSession.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\UserSession.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Code\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:37:47.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginModels.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:09:55.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\Framework\\Account.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Framework\\Account.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\Framework\\Account.cs",
+              "RelativeToolTip": "ClassLibrary1\\Framework\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:36:06.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:06:57.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountModels.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\AccountModels.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\AccountModels.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\AccountModels.cs",
+              "RelativeToolTip": "ClassLibrary1\\AccountModels.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:42:26.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Code\\SessionHelper.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\SessionHelper.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Code\\SessionHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:39:46.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T03:31:27.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Web.config",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Web.config",
+              "RelativeToolTip": "WebApplication_MVC\\Web.config",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T08:32:39.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:28:58.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShopOnlineDbcontext.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\Framework\\ShopOnlineDbcontext.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Framework\\ShopOnlineDbcontext.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\ClassLibrary1\\Framework\\ShopOnlineDbcontext.cs",
+              "RelativeToolTip": "ClassLibrary1\\Framework\\ShopOnlineDbcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:35:54.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:24:00.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LeftMenu.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T06:43:49.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAADICAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T04:20:55.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T03:26:58.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T04:50:44.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T03:54:20.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:04:12.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Global.asax.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Global.asax.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Global.asax.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:54:53.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T04:55:10.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\packages.config",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\packages.config",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\packages.config",
+              "RelativeToolTip": "WebApplication_MVC\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T04:54:57.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Web.config",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Views\\Web.config",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Web.config",
+              "RelativeToolTip": "WebApplication_MVC\\Views\\Web.config",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T04:54:19.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MessageModels.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Models\\MessageModels.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Models\\MessageModels.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Models\\MessageModels.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Models\\MessageModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:56:51.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\App_Start\\BundleConfig.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "WebApplication_MVC\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:04:11.385Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
