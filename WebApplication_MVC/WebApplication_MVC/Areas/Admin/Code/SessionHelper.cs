@@ -9,7 +9,7 @@ namespace WebApplication_MVC.Areas.Admin.Code
     {
         public static void SetSession(UserSession session)
         {
-            HttpContext.Current.Session["loginSession"] = session;
+            HttpContext.Current.Session["loginSession"] = session;//là nơi lưu trữ các thông tin phiên của người dùng trong ASP.NET
         }
         public static UserSession GetSession()
         {

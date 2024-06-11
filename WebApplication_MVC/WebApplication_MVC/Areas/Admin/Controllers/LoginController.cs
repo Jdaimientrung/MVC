@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using WebApplication_MVC.Areas.Admin.Code;
 using WebApplication_MVC.Areas.Admin.Models;
 
@@ -17,21 +18,27 @@ namespace WebApplication_MVC.Areas.Admin.Controllers
         {
             return View();
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpPost]// không thể nhận từ url
+        [ValidateAntiForgeryToken]//
         public ActionResult Index(LoginModels model)
         {
-            var result = new AccountModels().Login(model.UserName, model.Password);
-            if (result && ModelState.IsValid)
+            //var result = new AccountModel().Login(model.UserName, model.Password);
+            if (/*result*/Membership.ValidateUser(model.UserName,model.Password) && ModelState.IsValid)
             {
-                SessionHelper.SetSession(new UserSession() { UserName = model.UserName });
+                //SessionHelper.SetSession(new UserSession() { UserName = model.UserName });
+                FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
                 return RedirectToAction("Index", "Home");
             }
             else
             {
-                ModelState.AddModelError("", "Tên đăng nhập không chính xác");
+                ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không chính xác");
             }
             return View(model);
+        }
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Index", "Login");
         }
     }
 }

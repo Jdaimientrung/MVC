@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace WebApplication_MVC.Areas.Admin.Controllers
 {
+    [Authorize]//bắt buộc phải đăng nhập
     public class HomeController : Controller
     {
         // GET: Admin/Home

@@ -37,7 +37,13 @@
                     <li><a class="dropdown-item" href="#!">Settings</a></li>
                     <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    <li class="dropdown-item">
+                        @Html.ActionLink("Logout", "Logout", "Login", null, new{ @class = "dropdown-item"})
+                      
+
+                        @* @Html.TextBoxFor(model => model.Password, new { @placeholder = "Password", @type = "Password" })*@
+                        @*<a class="dropdown-item" href="#!">Logout</a>*@
+                    </li>
                 </ul>
             </li>
         </ul>

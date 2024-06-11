@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Signup</title>
     <link rel="stylesheet" href="~/Assets/admin/css/style.css">
+  
 </head>
 
 <body>
@@ -33,19 +34,19 @@
             <div class="form-inner">
                 @using (Html.BeginForm())
                 {
-                    @Html.AntiForgeryToken()
-                    @*@Html.ValidationSummary(true, null, new {@class="alert"})*@
-                    <form action="#" class="login">
+                    @Html.AntiForgeryToken()    
+                    @Html.ValidationSummary(true, null, new {@class="alert"})
+                    <form  class="login">
                         <div class="field">
                             @Html.TextBoxFor(model => model.UserName, new { @placeholder = "UserName" })
                         </div>
                         <div class="field">
-                            @Html.TextBoxFor(model => model.Password, new { @placeholder = "Password" })                           
+                            @Html.TextBoxFor(model => model.Password, new { @placeholder = "Password", @type="Password"})                           
                         </div >
                         <div class="checkbox">
                             <label>
-                                @Html.TextBoxFor(model => model.RememberMe)
-                                RememberMe
+                                @Html.TextBoxFor(model => model.RememberMe, new {@type="checkbox"})
+                                Remember Me
                             </label>
                         </div>
                         <div class="pass-link"><a href="#">Forgot password?</a></div>

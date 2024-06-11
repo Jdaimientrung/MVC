@@ -1,0 +1,12 @@
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\Models.dll.config
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\Models.dll
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\Models.pdb
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\EntityFramework.dll
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\EntityFramework.xml
+D:\QTS\C#\MVC\WebApplication_MVC\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\QTS\C#\MVC\WebApplication_MVC\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\QTS\C#\MVC\WebApplication_MVC\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\QTS\C#\MVC\WebApplication_MVC\Models\obj\Debug\Models.csproj.Up2Date
+D:\QTS\C#\MVC\WebApplication_MVC\Models\obj\Debug\Models.dll
+D:\QTS\C#\MVC\WebApplication_MVC\Models\obj\Debug\Models.pdb
