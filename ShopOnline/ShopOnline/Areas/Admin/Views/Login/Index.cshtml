@@ -1,0 +1,91 @@
+﻿
+@{
+    Layout = null;
+}
+@model ShopOnline.Areas.Admin.Models.LoginModel
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="~/Assets/admin/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login Form</div>
+            <div class="title signup">Register Form</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Login</label>
+                <label for="signup" class="slide signup">Register</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                @using (Html.BeginForm("Login", "login", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(false, "", new { @class = "alert-danger" })
+                   
+
+
+                    <form class="login">
+                        <div class="field">
+                            @Html.TextBoxFor(model => model.UserName, new { @placeholder = "UserName" })
+                          
+                          
+
+                        </div>
+                        <div class="field">
+                            @Html.PasswordFor(model => model.Password, new { @placeholder = "Password", @type = "Password" })
+                           
+
+                        </div>
+                            
+                        <div class="checkbox">
+                            <label>
+                                @Html.CheckBoxFor(model => model.Remember, new { @type = "checkbox" })
+                                Remember Me
+                            </label>
+                        </div>
+                        <div class="pass-link"><a href="#">Forgot password?</a></div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Login">
+                        </div>
+                        <div class="signup-link">Not a member? <a href="">Register now</a></div>
+                    </form>
+                }
+
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="field btn">
+                        <div class="btn-layer"></div>
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="~/Assets/admin/js/codingworld.js"></script>
+
+</html>

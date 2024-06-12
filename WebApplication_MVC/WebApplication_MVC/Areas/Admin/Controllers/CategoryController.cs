@@ -39,11 +39,21 @@ namespace WebApplication_MVC.Areas.Admin.Controllers
             {
                 if(ModelState.IsValid)
                 {
-
+                    var model = new CategoryModel();
+                    int res=model.Create(collection.Name,collection.Alias,collection.ParentID,collection.Order,collection.Status);
+                    if(res > 0)
+                    {
+                        return RedirectToAction("Index");
+                    }   
+                    else
+                    {
+                        ModelState.AddModelError("", "Thêm không thành công");
+                    }
+                    //insert dữ liệu
+                   
                 }
-                // TODO: Add insert logic here
 
-                return RedirectToAction("Index");
+                return View(collection);
             }
             catch
             {
