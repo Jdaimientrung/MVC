@@ -4,7 +4,6 @@
 }
 @model ShopOnline.Areas.Admin.Models.LoginModel
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +11,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Signup</title>
+
+    <link rel="stylesheet" href="~/Assets/admin/css/styles.css">
     <link rel="stylesheet" href="~/Assets/admin/css/style.css">
 
 </head>
@@ -33,24 +34,17 @@
             <div class="form-inner">
                 @using (Html.BeginForm("Login", "login", FormMethod.Post))
                 {
-                    @Html.AntiForgeryToken()
-                    @Html.ValidationSummary(false, "", new { @class = "alert-danger" })
-                   
-
-
+                    @*@Html.AntiForgeryToken()*@
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
                     <form class="login">
                         <div class="field">
                             @Html.TextBoxFor(model => model.UserName, new { @placeholder = "UserName" })
-                          
-                          
-
                         </div>
                         <div class="field">
                             @Html.PasswordFor(model => model.Password, new { @placeholder = "Password", @type = "Password" })
-                           
 
                         </div>
-                            
+
                         <div class="checkbox">
                             <label>
                                 @Html.CheckBoxFor(model => model.Remember, new { @type = "checkbox" })
@@ -66,21 +60,40 @@
                     </form>
                 }
 
-                <form action="#" class="signup">
+                @*<form action="#" class="signup">
                     <div class="field">
-                        <input type="text" placeholder="Email Address" required>
+                        @Html.TextBoxFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Password" required>
+                        @Html.PasswordFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
                     </div>
                     <div class="field">
-                        <input type="password" placeholder="Confirm password" required>
+                        @Html.TextBoxFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="field">
+                        @Html.TextBoxFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="field">
+                        @Html.TextBoxFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="file">
+                        @Html.TextBoxFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="checkbox">
+                        @Html.CheckBoxFor(model => model.Status)
+                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
                     </div>
                     <div class="field btn">
                         <div class="btn-layer"></div>
                         <input type="submit" value="Signup">
                     </div>
-                </form>
+                </form>*@
             </div>
         </div>
     </div>

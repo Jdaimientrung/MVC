@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\QTS\\C#\\MVC\\ShopOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\models\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|d:\\qts\\c#\\mvc\\shoponline\\models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|d:\\qts\\c#\\mvc\\shoponline\\models\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\common\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\common\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|d:\\qts\\c#\\mvc\\shoponline\\models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,79 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Common\\UserLogin.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Common\\UserLogin.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Common\\UserLogin.cs",
-              "RelativeToolTip": "ShopOnline\\Common\\UserLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
+              "RelativeDocumentMoniker": "Models\\EF\\User.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
+              "RelativeToolTip": "Models\\EF\\User.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:43:26.478Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-13T06:57:56.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAF0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T08:39:04.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDao.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
+              "RelativeDocumentMoniker": "Models\\Dao\\UserDao.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
+              "RelativeToolTip": "Models\\Dao\\UserDao.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T06:26:42.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAwDEAAAAbAAAA",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T09:35:45.776Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-13T06:21:44.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Models\\LoginModel.cs",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:16:28.467Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-13T06:17:18.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
-              "RelativeDocumentMoniker": "Models\\EF\\User.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
-              "RelativeToolTip": "Models\\EF\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T15:38:07.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDao.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
-              "RelativeDocumentMoniker": "Models\\Dao\\UserDao.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
-              "RelativeToolTip": "Models\\Dao\\UserDao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T07:48:46.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -118,20 +115,20 @@
               "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:36:57.288Z",
+              "WhenOpened": "2024-06-13T07:26:01.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA2wBkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:05:15.411Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T02:46:48.548Z",
               "EditorCaption": ""
             }
           ]

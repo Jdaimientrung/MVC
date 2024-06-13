@@ -214,3 +214,8 @@ form .btn input[type="submit"] {
     font-weight: 500;
     cursor: pointer;
 }
+.text-danger {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
