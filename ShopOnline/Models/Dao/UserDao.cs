@@ -5,12 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using PagedList;
+using System.Web;
 
 namespace Models.Dao
 {
     public class UserDao
     {
-        ShopOnlineDbContext db = null; 
+        ShopOnlineDbContext db = null;
         public UserDao()
         {
             db = new ShopOnlineDbContext();
@@ -21,14 +23,72 @@ namespace Models.Dao
             db.SaveChanges();
             return emtity.UserID;
         }
-        public User GetById(string userName) 
+        public User GetByID(string userName)
         {
-                return db.Users.SingleOrDefault(u => u.UserName == userName);
+            return db.Users.SingleOrDefault(u => u.UserName == userName);
         }
-        public int Login(string userName, string password) 
+        public User ViewDeltail(int id)
         {
-            var result = db.Users.SingleOrDefault(x=>x.UserName == userName);
-            if (result == null) 
+            return db.Users.Find(id);// tìm kiếm theo khóa chính
+        }
+        public User GetUserByName(string userName)
+        {
+            return db.Users.SingleOrDefault(u => u.UserName == userName);
+        }
+        public IEnumerable<User> ListAllPaging(string searchString, int page, int pageSize)
+        {
+            IQueryable<User> query = db.Users;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(u => u.UserName.Contains(searchString) || u.Name.Contains(searchString));
+            }
+            return query.OrderByDescending(x => x.UserName).ToPagedList(page, pageSize);
+
+            // return db.Users.OrderByDescending(x => x.UserName).ToPagedList(page, pageSize);
+        }
+        public bool Update(User emtity)
+        {
+            try
+            {
+                var user = db.Users.Find(emtity.UserID);
+                user.Name = emtity.Name;
+                if (!string.IsNullOrEmpty(emtity.Password))
+                {
+                    user.Password = emtity.Password;
+                }
+                user.Address = emtity.Address;
+                user.Email = emtity.Email;
+                user.Phone = emtity.Phone;
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+
+        }
+        public bool Delete(int id)
+        {
+            try
+            {
+                var user = db.Users.Find(id);
+                db.Users.Remove(user);
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                // Log the error
+                return false;
+            }
+        }
+
+        public int Login(string userName, string password)
+        {
+            var result = db.Users.SingleOrDefault(x => x.UserName == userName);
+            if (result == null)
             {
                 return 0;
 
@@ -50,10 +110,11 @@ namespace Models.Dao
                         return -2;
                     }
                 }
-                
+
             }
-            
+
         }
+
 
     }
 }

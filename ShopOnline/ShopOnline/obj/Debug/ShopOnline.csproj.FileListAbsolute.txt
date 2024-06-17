@@ -84,3 +84,7 @@ D:\QTS\C#\MVC\ShopOnline\ShopOnline\obj\Debug\ShopOnline.dll
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\obj\Debug\ShopOnline.pdb
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\EntityFramework.SqlServer.dll
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\EntityFramework.SqlServer.xml
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\PagedList.dll
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\PagedList.Mvc.dll
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\PagedList.xml
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\PagedList.Mvc.xml

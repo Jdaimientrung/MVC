@@ -26,7 +26,7 @@ namespace ShopOnline.Areas.Admin.Controllers
                 var result = dao.Login(model.UserName, Encryptor.MD5Hash(model.Password));
                 if (result==1)
                 {
-                    var user=dao.GetById(model.UserName);
+                    var user=dao.GetByID(model.UserName);
                     var userSession = new UserLogin();
                     userSession.UserName = user.UserName;
                     userSession.UserID=user.UserID; 
