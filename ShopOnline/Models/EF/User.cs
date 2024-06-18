@@ -1,4 +1,4 @@
-﻿namespace Models.EF
+namespace Models.EF
 {
     using System;
     using System.Collections.Generic;
@@ -12,15 +12,15 @@
     {
 
         public long UserID { get; set; }
-       
-        [Required(ErrorMessage = "* Nhập user name")]
+
+        [Required(ErrorMessage = "* Nh?p user name")]
         [StringLength(50)]
         public string UserName { get; set; }
-        [Required(ErrorMessage = "* Mật khẩu không được bỏ trống")]
+        [Required(ErrorMessage = "* M?t kh?u kh�ng ???c b? tr?ng")]
         [StringLength(50)]
         public string Password { get; set; }
         [DisplayName("FullName")]
-        [Required(ErrorMessage = "* Nhập họ tên")]
+        [Required(ErrorMessage = "* Nh?p h? t�n")]
         [StringLength(250)]
         public string Name { get; set; }
 
@@ -36,3 +36,4 @@
         public bool Status { get; set; }
     }
 }
+

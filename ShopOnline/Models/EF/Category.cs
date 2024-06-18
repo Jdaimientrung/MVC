@@ -6,19 +6,19 @@ namespace Models.EF
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+    [Table("Category")]
     public partial class Category
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int CategoryID { get; set; }
 
         [Required]
         [StringLength(15)]
         public string CategoryName { get; set; }
 
-        [Column(TypeName = "ntext")]
+        [StringLength(250)]
         public string Description { get; set; }
 
-        [Column(TypeName = "image")]
-        public byte[] Picture { get; set; }
+        [StringLength(250)]
+        public string Picture { get; set; }
     }
 }

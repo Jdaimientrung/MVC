@@ -139,6 +139,7 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
+    <Compile Include="Areas\Admin\Models\CategoryModels.cs" />
     <Compile Include="Areas\Admin\Models\LoginModel.cs" />
     <Compile Include="Common\CommonConstants.cs" />
     <Compile Include="Common\Encryptor.cs" />
@@ -158,6 +159,7 @@
     <Content Include="Assets\admin\css\style.css" />
     <Content Include="Assets\admin\css\styles.css" />
     <Content Include="Assets\admin\js\codingworld.js" />
+    <Content Include="Assets\admin\js\Controller\UserController.js" />
     <Content Include="Assets\admin\js\datatables-simple-demo.js" />
     <Content Include="Assets\admin\js\scripts.js" />
     <Content Include="Contents\bootstrap-grid.css" />
@@ -211,6 +213,7 @@
     <Content Include="Areas\Admin\Views\User\Create.cshtml" />
     <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

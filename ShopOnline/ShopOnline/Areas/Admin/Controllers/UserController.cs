@@ -101,5 +101,19 @@ namespace ShopOnline.Areas.Admin.Controllers
             }
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public JsonResult ChangeStatus(long id)
+        {
+            var dao = new UserDao();
+            var result = dao.ChangeStatus(id);
+
+          //  return Json(new { message = (result == false ? "Khóa thành công" : " kích hoạt thành công"), type = "success" }, JsonRequestBehavior.AllowGet);
+            return Json(new
+            {
+                message = result ? "kích hoạt thành công" : "Khóa thành công",
+                type = "success",
+                newStatus = result
+            }, JsonRequestBehavior.AllowGet);
+        }
     }
 }

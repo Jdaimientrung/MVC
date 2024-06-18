@@ -2,7 +2,6 @@ using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
-using System.Data.SqlClient;
 
 namespace Models.EF
 {
@@ -36,10 +35,6 @@ namespace Models.EF
             modelBuilder.Entity<Product>()
                 .Property(e => e.UnitPrice)
                 .HasPrecision(19, 4);
-
-            modelBuilder.Entity<User>()
-                .Property(e => e.Name)
-                .IsFixedLength();
         }
     }
 }

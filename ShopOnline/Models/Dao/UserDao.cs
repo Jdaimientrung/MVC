@@ -42,7 +42,7 @@ namespace Models.Dao
             {
                 query = query.Where(u => u.UserName.Contains(searchString) || u.Name.Contains(searchString));
             }
-            return query.OrderByDescending(x => x.UserName).ToPagedList(page, pageSize);
+            return query.OrderBy(x => x.UserID).ToPagedList(page, pageSize);
 
             // return db.Users.OrderByDescending(x => x.UserName).ToPagedList(page, pageSize);
         }
@@ -59,6 +59,7 @@ namespace Models.Dao
                 user.Address = emtity.Address;
                 user.Email = emtity.Email;
                 user.Phone = emtity.Phone;
+                user.Status = emtity.Status;
                 db.SaveChanges();
                 return true;
             }
@@ -84,7 +85,13 @@ namespace Models.Dao
                 return false;
             }
         }
-
+        public bool ChangeStatus(long id)
+        {
+            var user = db.Users.Find(id);
+            user.Status = !user.Status;
+            db.SaveChanges();
+            return user.Status;
+        }
         public int Login(string userName, string password)
         {
             var result = db.Users.SingleOrDefault(x => x.UserName == userName);
