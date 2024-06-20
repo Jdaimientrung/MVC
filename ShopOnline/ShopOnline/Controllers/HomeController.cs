@@ -10,6 +10,7 @@ namespace ShopOnline.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
 

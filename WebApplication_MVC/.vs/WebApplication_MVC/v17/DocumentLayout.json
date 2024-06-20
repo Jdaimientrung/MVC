@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\views\\shared\\_leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\shared\\_leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\shared\\_leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|d:\\qts\\c#\\mvc\\webapplication_mvc\\webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07458420-B259-4B4B-8351-BF0E0D855302}|Models\\Models.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\models\\framework\\shoponlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|D:\\QTS\\C#\\MVC\\WebApplication_MVC\\webapplication_mvc\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{CF1CD5DA-6AAD-47B8-99B9-2D60E8DD08DB}|WebApplication_MVC\\WebApplication_MVC.csproj|solutionrelative:webapplication_mvc\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -90,37 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginModels.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T02:50:21.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_LeftMenu.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAmwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T02:43:22.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
@@ -128,138 +118,24 @@
               "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Controllers\\LoginController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:41:33.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T07:26:44.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T02:41:33.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAD4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T09:16:52.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwC8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:00:31.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAmwEkAAAAAAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-13T02:42:58.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminAreaRegistration.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBQAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T02:38:04.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomMembershipProvider.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:38:20.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T02:51:47.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ShopOnlineDbContext.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\ShopOnlineDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\Framework\\ShopOnlineDbContext.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\ShopOnlineDbContext.cs",
-              "RelativeToolTip": "Models\\Framework\\ShopOnlineDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T14:38:45.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\Account.cs",
-              "RelativeDocumentMoniker": "Models\\Framework\\Account.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\Account.cs",
-              "RelativeToolTip": "Models\\Framework\\Account.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:52:07.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountModel.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\AccountModel.cs",
-              "RelativeDocumentMoniker": "Models\\AccountModel.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\AccountModel.cs",
-              "RelativeToolTip": "Models\\AccountModel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA9wBUAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T02:39:56.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Web.config",
               "RelativeDocumentMoniker": "WebApplication_MVC\\Web.config",
@@ -272,7 +148,202 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T14:37:31.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:09:42.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T07:09:47.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LeftMenu.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Shared\\_LeftMenu.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAmwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T02:43:22.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplication_MVC\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:55:03.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "WebApplication_MVC\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:55:11.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T07:26:44.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\AdminAreaRegistration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T02:38:04.879Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "LoginModels.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Models\\LoginModels.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T02:50:21.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAD4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T09:16:52.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T07:00:31.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomMembershipProvider.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Code\\CustomMembershipProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:38:20.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:51:47.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShopOnlineDbContext.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\ShopOnlineDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Framework\\ShopOnlineDbContext.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\ShopOnlineDbContext.cs",
+              "RelativeToolTip": "Models\\Framework\\ShopOnlineDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T14:38:45.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Framework\\Account.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\Account.cs",
+              "RelativeToolTip": "Models\\Framework\\Account.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:52:07.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountModel.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\AccountModel.cs",
+              "RelativeDocumentMoniker": "Models\\AccountModel.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\AccountModel.cs",
+              "RelativeToolTip": "Models\\AccountModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA9wBUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:39:56.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "App.config",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\App.config",
               "RelativeDocumentMoniker": "Models\\App.config",
@@ -284,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -296,19 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication_MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T14:37:31.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\Framework\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Framework\\Category.cs",
@@ -320,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "web.config",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
               "RelativeDocumentMoniker": "WebApplication_MVC\\Areas\\Admin\\Views\\web.config",
@@ -332,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\WebApplication_MVC\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Models\\CategoryModel.cs",

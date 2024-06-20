@@ -1,5 +1,6 @@
 ﻿using Models.Dao;
 using Models.EF;
+using ShopOnline.Areas.Admin.Models;
 using ShopOnline.Common;
 using System;
 using System.Collections.Generic;
@@ -25,11 +26,31 @@ namespace ShopOnline.Areas.Admin.Controllers
         {
             return View();
         }
-        public ActionResult Edit(int id)
+        
+        [HttpGet]      
+        public ActionResult Edit(int id) 
         {
-            var user = new UserDao().ViewDeltail(id);
-            return View(user);
+            var dao = new UserDao();
+            var user = dao.GetUserByID(id);
+            if (user == null)
+            {
+                return HttpNotFound();
+            }
+
+            var userModel = new UserModels
+            {
+                UserID = user.UserID,
+                UserName = user.UserName,
+                Name = user.Name,
+                Address = user.Address,
+                Email = user.Email,
+                Phone = user.Phone,
+                Status = user.Status
+            };
+
+            return View(userModel);
         }
+
         [HttpPost]
         public ActionResult Create(User model)
         {
@@ -42,11 +63,13 @@ namespace ShopOnline.Areas.Admin.Controllers
                     var encryptedMd5Pas = Encryptor.MD5Hash(model.Password);
                     model.Password = encryptedMd5Pas;
                     dao.Insert(model);
+                    SetAlert("Thêm user thành công", "success");
                     return RedirectToAction("Index");
 
                 }
                 else
                 {
+                    SetAlert("Thêm user không thành công", "error");
                     ModelState.AddModelError("", "User tồn tại");
 
                 }
@@ -54,38 +77,53 @@ namespace ShopOnline.Areas.Admin.Controllers
             return View("Create");
         }
         [HttpPost]
-        public ActionResult Edit(User model)
+        public ActionResult Edit(UserModels model, string currentPassword)
         {
             if (ModelState.IsValid)
             {
                 var dao = new UserDao();
-                if (string.IsNullOrEmpty(model.Password))
+                var user = dao.GetUserByID(model.UserID);
+                if (user != null)
                 {
-                    ModelState.AddModelError("Password", "Vui lòng nhập mật khẩu để cập nhật.");
-                    return View(model);
+                    if (!string.IsNullOrEmpty(currentPassword))
+                    {
+                        var encryptedCurrentPassword = Encryptor.MD5Hash(currentPassword);
+                        if (user.Password == encryptedCurrentPassword)
+                        {
+                            user.Name = model.Name;
+                            user.Address = model.Address;
+                            user.Email = model.Email;
+                            user.Phone = model.Phone;
+                            user.Status = model.Status;
+
+                            if (!string.IsNullOrEmpty(model.Password))
+                            {
+                                var encryptedNewPassword = Encryptor.MD5Hash(model.Password);
+                                user.Password = encryptedNewPassword;
+                            }
+
+                            dao.Update(user);
+                            SetAlert("Cập nhật thông tin thành công", "success");
+                            return RedirectToAction("Index");
+                        }
+                        else
+                        {
+                            ModelState.AddModelError("", "Mật khẩu hiện tại không chính xác.");
+                        }
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "Vui lòng nhập mật khẩu hiện tại để cập nhật thông tin.");
+                    }
                 }
                 else
                 {
-                    var encryptedMd5Pas = Encryptor.MD5Hash(model.Password);
-                    model.Password = encryptedMd5Pas;
-                }
-                
-               
-
-                var result= dao.Update(model);
-                if (result)
-                {
-                    return RedirectToAction("Index","User");
-                }
-             
-                else
-                {
-                    ModelState.AddModelError("", "Cập nhật thành công");
-
+                    return HttpNotFound();
                 }
             }
-            return View("Index");
+            return View(model);
         }
+      
         [HttpPost]
         public ActionResult Delete(int id)
         {
@@ -93,6 +131,7 @@ namespace ShopOnline.Areas.Admin.Controllers
             var result = dao.Delete(id);
             if (result)
             {
+                SetAlert("Xóa user thành công", "success");
                 return RedirectToAction("Index");
             }
             else

@@ -7,3 +7,7 @@ window.addEventListener('DOMContentLoaded', event => {
         new simpleDatatables.DataTable(datatablesSimple);
     }
 });
+$(function () {
+    $('#AlertBox').removeClass('hiding');
+    $('#AlertBox').delay(1000).slideUp(500);
+})

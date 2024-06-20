@@ -27,6 +27,10 @@ namespace Models.Dao
         {
             return db.Users.SingleOrDefault(u => u.UserName == userName);
         }
+        public User GetUserByID(long id)
+        {
+            return db.Users.SingleOrDefault(u => u.UserID == id);
+        }
         public User ViewDeltail(int id)
         {
             return db.Users.Find(id);// tìm kiếm theo khóa chính
@@ -50,16 +54,6 @@ namespace Models.Dao
         {
             try
             {
-                var user = db.Users.Find(emtity.UserID);
-                user.Name = emtity.Name;
-                if (!string.IsNullOrEmpty(emtity.Password))
-                {
-                    user.Password = emtity.Password;
-                }
-                user.Address = emtity.Address;
-                user.Email = emtity.Email;
-                user.Phone = emtity.Phone;
-                user.Status = emtity.Status;
                 db.SaveChanges();
                 return true;
             }

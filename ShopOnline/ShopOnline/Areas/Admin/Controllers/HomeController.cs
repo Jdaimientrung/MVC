@@ -12,6 +12,7 @@ namespace ShopOnline.Areas.Admin.Controllers
         // GET: Admin/Home
         public ActionResult Index()
         {
+            
             return View();
         }
     }

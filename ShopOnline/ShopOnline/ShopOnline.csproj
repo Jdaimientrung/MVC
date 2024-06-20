@@ -141,6 +141,7 @@
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Areas\Admin\Models\CategoryModels.cs" />
     <Compile Include="Areas\Admin\Models\LoginModel.cs" />
+    <Compile Include="Areas\Admin\Models\UserModels.cs" />
     <Compile Include="Common\CommonConstants.cs" />
     <Compile Include="Common\Encryptor.cs" />
     <Compile Include="Common\UserLogin.cs" />
@@ -162,6 +163,50 @@
     <Content Include="Assets\admin\js\Controller\UserController.js" />
     <Content Include="Assets\admin\js\datatables-simple-demo.js" />
     <Content Include="Assets\admin\js\scripts.js" />
+    <Content Include="Assets\client\css\bootstrap.css" />
+    <Content Include="Assets\client\css\flexslider.css" />
+    <Content Include="Assets\client\css\memenu.css" />
+    <Content Include="Assets\client\css\style.css" />
+    <Content Include="Assets\client\images\11.png" />
+    <Content Include="Assets\client\images\abt-1.jpg" />
+    <Content Include="Assets\client\images\abt-2.jpg" />
+    <Content Include="Assets\client\images\abt-3.jpg" />
+    <Content Include="Assets\client\images\arrow.png" />
+    <Content Include="Assets\client\images\bnr-1.jpg" />
+    <Content Include="Assets\client\images\bnr-2.jpg" />
+    <Content Include="Assets\client\images\bnr-3.jpg" />
+    <Content Include="Assets\client\images\c-1.jpg" />
+    <Content Include="Assets\client\images\c-2.jpg" />
+    <Content Include="Assets\client\images\c-3.jpg" />
+    <Content Include="Assets\client\images\cart-1.png" />
+    <Content Include="Assets\client\images\cart-2.png" />
+    <Content Include="Assets\client\images\cart-3.png" />
+    <Content Include="Assets\client\images\close.png" />
+    <Content Include="Assets\client\images\crossword.png" />
+    <Content Include="Assets\client\images\p-1.png" />
+    <Content Include="Assets\client\images\p-2.png" />
+    <Content Include="Assets\client\images\p-3.png" />
+    <Content Include="Assets\client\images\p-4.png" />
+    <Content Include="Assets\client\images\p-5.png" />
+    <Content Include="Assets\client\images\p-6.png" />
+    <Content Include="Assets\client\images\p-7.png" />
+    <Content Include="Assets\client\images\p-8.png" />
+    <Content Include="Assets\client\images\pr-1.jpg" />
+    <Content Include="Assets\client\images\pr-2.jpg" />
+    <Content Include="Assets\client\images\s-1.jpg" />
+    <Content Include="Assets\client\images\s-2.jpg" />
+    <Content Include="Assets\client\images\s-3.jpg" />
+    <Content Include="Assets\client\images\s-icons.png" />
+    <Content Include="Assets\client\images\search.png" />
+    <Content Include="Assets\client\images\star.png" />
+    <Content Include="Assets\client\images\tick.png" />
+    <Content Include="Assets\client\js\imagezoom.js" />
+    <Content Include="Assets\client\js\jquery-1.11.0.min.js" />
+    <Content Include="Assets\client\js\jquery.easydropdown.js" />
+    <Content Include="Assets\client\js\jquery.flexslider.js" />
+    <Content Include="Assets\client\js\memenu.js" />
+    <Content Include="Assets\client\js\responsiveslides.min.js" />
+    <Content Include="Assets\client\js\simpleCart.min.js" />
     <Content Include="Contents\bootstrap-grid.css" />
     <Content Include="Contents\bootstrap-grid.min.css" />
     <Content Include="Contents\bootstrap-grid.rtl.css" />
@@ -214,6 +259,11 @@
     <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
+    <Content Include="Assets\client\fonts\BreeSerif-Regular.ttf" />
+    <Content Include="Assets\client\fonts\Lato-Regular.ttf" />
+    <Content Include="Assets\client\fonts\Lora-Regular.ttf" />
+    <Content Include="Assets\client\fonts\Muli-Regular.ttf" />
+    <Content Include="Assets\client\fonts\Philosopher-Regular.ttf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -234,15 +284,15 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\MainMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Views\Base\" />
-    <Folder Include="Assets\client\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
