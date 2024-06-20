@@ -55,11 +55,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <option value="3">German</option>
                             </select>
                         </div>
+
                         <div class="clearfix"></div>
                     </div>
                 </div>
                 <div class="col-md-6 top-header-left">
+
                     <div class="cart box_1">
+                        <div>
+                            <a href="#">Đăng Nhập</a>
+                            |
+                            <a href="#">Đăng kí</a>
+                        </div>
                         <a href="checkout.html">
                             <div class="total">
                                 <span class="simpleCart_total"></span>
@@ -86,8 +93,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="header">
                 <div class="col-md-9 header-left">
                     @RenderPage("MainMenu.cshtml")
-                    
-
                 </div>
                 <div class="col-md-3 header-right">
                     <div class="search-bar">
@@ -165,5 +170,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
     <!--footer-end-->
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
