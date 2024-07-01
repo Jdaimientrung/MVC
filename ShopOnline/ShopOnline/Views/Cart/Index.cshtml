@@ -1,0 +1,60 @@
+﻿@model List<ShopOnline.Models.CartItemModels>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Scripts{
+    <script src="/Assets/client/js/Controller/CartController.js"></script>
+}
+<!--start-ckeckout-->
+<div class="ckeckout">
+    <div class="container">
+        <div class="ckeck-top heading">
+            <h2>CHECKOUT</h2>
+        </div>
+        <div class="ckeckout-top">
+            <div class="cart-items">
+                <h3>My Shopping Bag</h3>
+
+
+                <div class="in-check">
+                    <ul class="unit">
+                        <li><span>Item</span></li>
+                        <li><span>Product Name</span></li>
+                        <li><span>Unit Price</span></li>
+                        <li><span>Quantity</span></li>
+                        <li><span>Total</span></li>
+
+                        <div class="clearfix"> </div>
+                    </ul>
+
+                    @foreach (var item in Model)
+                    {
+                        <ul class="cart-header">
+
+
+                            <div data-id="@item.Product.ProductID" class="close1 btn-delete  " > </div>
+                            <li class="ring-in">
+                                <a href="@Url.Action("Details", "Products", new {id=item.Product.ProductID  })"><img src="/Assets/client/images/c-1.jpg " class="img-responsive" alt=""></a>
+                            </li>
+                            <li><span class="name">@item.Product.ProductName</span></li>
+                            <li><span class="cost">$ @item.Product.UnitPrice.GetValueOrDefault(0)</span></li>
+                            <li><span><input type="text" class="txtQuantity" data-id="@item.Product.ProductID" value="@item.Quantity" /></span></li>
+                            <li><span>@(item.Product.UnitPrice.GetValueOrDefault(0)*item.Quantity)</span></li>
+
+                            <div class="clearfix"> </div>
+
+                        </ul>
+                    }
+
+                    <button id="btnContinue" class="btn">Tiếp tục mua hàng</button>
+                    <button id="btnUpdate" class="btn">Cập nhật giỏ hàng</button>
+                    <button id="btnDeleteAll" class="btn">Xóa giỏ hàng</button>
+                    <button id="btnPayment" class="btn">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--end-ckeckout-->
