@@ -123,12 +123,14 @@ namespace ShopOnline.Controllers
            
         }
         [HttpPost]
-        public ActionResult Payment(string shipName,string address)
+        public ActionResult Payment(string shipName,string address, string email, string phone)
         {
             var order= new Order();
             order.OrderDate = DateTime.Now;
             order.ShipName=shipName;
             order.ShipAddress=address;
+            order.Email=email;
+            order.PhoneNumber=phone;
             try
             {
                 var id = new OrderDao().Insert(order);
@@ -149,7 +151,7 @@ namespace ShopOnline.Controllers
             {
                 throw;
             } 
-            return Redirect("/Success");
+            return Redirect("/Cart/Success");
 
         }
         public ActionResult Success()

@@ -8,7 +8,6 @@ namespace Models.EF
 
     public partial class Order
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int OrderID { get; set; }
 
         [StringLength(5)]
@@ -33,5 +32,11 @@ namespace Models.EF
 
         [StringLength(15)]
         public string ShipCity { get; set; }
+
+        [StringLength(50)]
+        public string Email { get; set; }
+
+        [StringLength(50)]
+        public string PhoneNumber { get; set; }
     }
 }
