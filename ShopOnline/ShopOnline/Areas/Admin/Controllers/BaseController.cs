@@ -21,7 +21,7 @@ namespace ShopOnline.Areas.Admin.Controllers
             }
             base.OnActionExecuting(filterContext);
         }
-        protected void SetAlert(string message, string type)
+        public void SetAlert(string message, string type)
         {
             TempData["AlertMessage"] = message;
             if (type == "success")

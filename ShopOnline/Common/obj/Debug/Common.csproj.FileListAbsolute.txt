@@ -1,0 +1,6 @@
+D:\QTS\C#\MVC\ShopOnline\Common\bin\Debug\Common.dll
+D:\QTS\C#\MVC\ShopOnline\Common\bin\Debug\Common.pdb
+D:\QTS\C#\MVC\ShopOnline\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\QTS\C#\MVC\ShopOnline\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\QTS\C#\MVC\ShopOnline\Common\obj\Debug\Common.dll
+D:\QTS\C#\MVC\ShopOnline\Common\obj\Debug\Common.pdb

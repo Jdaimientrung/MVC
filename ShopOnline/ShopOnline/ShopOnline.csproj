@@ -46,11 +46,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BotDetect, Version=4.4.2.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Captcha.4.4.2\lib\net35\BotDetect.dll</HintPath>
+    </Reference>
+    <Reference Include="BotDetect.Web.Mvc, Version=4.4.2.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Captcha.4.4.2\lib\net35\BotDetect.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="CaptchaMvc, Version=2.5.0.0, Culture=neutral, PublicKeyToken=fe46ad421dd3b0e6, processorArchitecture=MSIL">
+      <HintPath>..\packages\CaptchaMvc.Mvc5.1.5.0\lib\net45-full\CaptchaMvc.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Annotations, Version=8.0.5.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.8.0.5.0\lib\net20\JetBrains.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
@@ -59,8 +71,17 @@
     <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="reCaptcha, Version=1.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\reCaptcha.AspNet.Mvc.1.2.3.0\lib\net451\reCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="Recaptcha.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=c11b6c0ad947566e, processorArchitecture=MSIL">
+      <HintPath>..\packages\RecaptchaNet.3.1.0\lib\net45\Recaptcha.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -115,6 +136,9 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -148,10 +172,12 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CartItemModels.cs" />
+    <Compile Include="Models\RegisterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +237,7 @@
     <Content Include="Assets\client\js\memenu.js" />
     <Content Include="Assets\client\js\responsiveslides.min.js" />
     <Content Include="Assets\client\js\simpleCart.min.js" />
+    <Content Include="Assets\client\template\neworder.html" />
     <Content Include="Contents\bootstrap-grid.css" />
     <Content Include="Contents\bootstrap-grid.min.css" />
     <Content Include="Contents\bootstrap-grid.rtl.css" />
@@ -231,6 +258,7 @@
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="RecaptchaNet.Readme.txt" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -268,6 +296,7 @@
     <Content Include="Assets\client\fonts\Lora-Regular.ttf" />
     <Content Include="Assets\client\fonts\Muli-Regular.ttf" />
     <Content Include="Assets\client\fonts\Philosopher-Regular.ttf" />
+    <Content Include="libman.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -296,6 +325,7 @@
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Cart\Payment.cshtml" />
     <Content Include="Views\Cart\Success.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -314,6 +344,10 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d067c7ce-46bd-47f9-8588-ea7328bc0e67}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{cfdc0c17-979c-4f76-a2ad-d0279ba4336a}</Project>
       <Name>Models</Name>
@@ -354,8 +388,10 @@
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

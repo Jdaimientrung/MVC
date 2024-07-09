@@ -36,5 +36,7 @@ namespace Models.EF
                 .Property(e => e.UnitPrice)
                 .HasPrecision(19, 4);
         }
+
+      
     }
 }
