@@ -2,6 +2,7 @@
 using Models.EF;
 using ShopOnline.Areas.Admin.Models;
 using ShopOnline.Common;
+using ShopOnline.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,7 +53,7 @@ namespace ShopOnline.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(User model)
+        public ActionResult Create(UserModel model)
         {
             if (ModelState.IsValid)
             {
@@ -62,7 +63,14 @@ namespace ShopOnline.Areas.Admin.Controllers
                 {
                     var encryptedMd5Pas = Encryptor.MD5Hash(model.Password);
                     model.Password = encryptedMd5Pas;
-                    dao.Insert(model);
+                    var newUser = new User();
+                    newUser.UserName = model.UserName;
+                    newUser.Password = encryptedMd5Pas;
+                    newUser.Email = model.Email;
+                    newUser.Phone = model.Phone;
+                    newUser.Status = model.Status;
+                    newUser.Address = model.Address;
+                    dao.Insert(newUser);
                     SetAlert("Thêm user thành công", "success");
                     return RedirectToAction("Index");
 

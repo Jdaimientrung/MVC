@@ -62,11 +62,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-md-6 top-header-left">
 
                     <div class="cart box_1">
-                        <div>
-                            <a href="#">Đăng Nhập</a>
-                            |
-                            @Html.ActionLink("Đăng ký", "Register", "User")
-                        </div>
+                        @{
+                            var session = (ShopOnline.Common.UserLogin)Session[ShopOnline.Common.CommonConstants.USER_SESSION];
+                        }
+                        @if (session == null)
+                        {
+                            <div>
+                                @Html.ActionLink("Đăng nhập", "Login", "User")
+                                |
+                                @Html.ActionLink("Đăng ký", "Register", "User")
+                            </div>
+                        }
+                        else
+                        {
+                            <ul>
+                                <li style="color: white;">Xin chào:  @session.UserName</li>
+                                <li>@Html.ActionLink("Đăng xuất", "Logout", "User")</li>
+                            </ul>
+                        }
+
                         <a href="/Cart/">
                             <div class="total">
                                 <span class="simpleCart_total"></span>
@@ -171,5 +185,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <!--footer-end-->
     @RenderSection("Scripts", required: false)
+    @if (IsSectionDefined("jsFooter"))
+    {
+        @RenderSection("jsFooter", required: false)
+    }
+
 </body>
 </html>

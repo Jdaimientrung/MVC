@@ -103,3 +103,5 @@ D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\Recaptcha.Web.dll
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\WebActivatorEx.dll
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\JetBrains.Annotations.xml
 D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\reCaptcha.pdb
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\Facebook.dll
+D:\QTS\C#\MVC\ShopOnline\ShopOnline\bin\Facebook.xml

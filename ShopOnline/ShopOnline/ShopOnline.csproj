@@ -61,6 +61,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.7.0.6\lib\net45\Facebook.dll</HintPath>
+    </Reference>
     <Reference Include="JetBrains.Annotations, Version=8.0.5.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
       <HintPath>..\packages\JetBrains.Annotations.8.0.5.0\lib\net20\JetBrains.Annotations.dll</HintPath>
     </Reference>
@@ -172,11 +175,18 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\TestDropdownController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CartItemModels.cs" />
+    <Compile Include="Models\DistrictModel.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\PrecinctModel.cs" />
+    <Compile Include="Models\ProvinceModel.cs" />
+    <Compile Include="Models\TestDropdownModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\RegisterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -196,6 +206,7 @@
     <Content Include="Assets\client\css\flexslider.css" />
     <Content Include="Assets\client\css\memenu.css" />
     <Content Include="Assets\client\css\style.css" />
+    <Content Include="Assets\client\data\Provinces_Data.xml" />
     <Content Include="Assets\client\images\11.png" />
     <Content Include="Assets\client\images\abt-1.jpg" />
     <Content Include="Assets\client\images\abt-2.jpg" />
@@ -230,6 +241,7 @@
     <Content Include="Assets\client\images\star.png" />
     <Content Include="Assets\client\images\tick.png" />
     <Content Include="Assets\client\js\Controller\CartController.js" />
+    <Content Include="Assets\client\js\Controller\TestDropdown.js" />
     <Content Include="Assets\client\js\imagezoom.js" />
     <Content Include="Assets\client\js\jquery-1.11.0.min.js" />
     <Content Include="Assets\client\js\jquery.easydropdown.js" />
@@ -326,6 +338,8 @@
     <Content Include="Views\Cart\Payment.cshtml" />
     <Content Include="Views\Cart\Success.cshtml" />
     <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
+    <Content Include="Views\TestDropdown\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -23,6 +23,21 @@ namespace Models.Dao
             db.SaveChanges();
             return emtity.UserID;
         }
+        public long InsertForFacebook(User entity)
+        {
+            var user = db.Users.SingleOrDefault(x => x.UserName == entity.UserName);
+            if (user == null)
+            {
+                db.Users.Add(entity);
+                db.SaveChanges();
+                return entity.UserID;
+            }
+            else
+            {
+                return user.UserID;
+            }
+
+        }
         public User GetByID(string userName)
         {
             return db.Users.SingleOrDefault(u => u.UserName == userName);

@@ -37,6 +37,6 @@ namespace Models.EF
                 .HasPrecision(19, 4);
         }
 
-      
+       
     }
 }
