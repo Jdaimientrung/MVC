@@ -240,6 +240,7 @@
     <Content Include="Assets\client\images\search.png" />
     <Content Include="Assets\client\images\star.png" />
     <Content Include="Assets\client\images\tick.png" />
+    <Content Include="Assets\client\js\Controller\baseController.js" />
     <Content Include="Assets\client\js\Controller\CartController.js" />
     <Content Include="Assets\client\js\Controller\TestDropdown.js" />
     <Content Include="Assets\client\js\imagezoom.js" />

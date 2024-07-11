@@ -26,5 +26,20 @@ namespace Models.Dao
         {
             return db.Products.Find(id);
         }
+        public List<string> ListName(string keyword)
+        {
+            return db.Products.Where(x=>x.ProductName.Contains(keyword)).Select(x=>x.ProductName).ToList();
+        }
+        public IEnumerable<Product> ListAllPaging(string searchString, int page, int pageSize)
+        {
+            IQueryable<Product> query = db.Products;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(u => u.ProductName.Contains(searchString));
+            }
+            return query.OrderBy(x => x.ProductID).ToPagedList(page, pageSize);
+
+            
+        }
     }
 }

@@ -58,8 +58,8 @@ namespace ShopOnline.Controllers
         public JsonResult LoadPrecinct(int DistrictID)
         {
             var xmlDoc = XDocument.Load(Server.MapPath(@"~/Assets/client/data/Provinces_Data.xml"));
-            var xElement = xmlDoc.Element("Root").Elements("Item")
-                .SingleOrDefault(x => x.Attribute("type").Value == "district" && int.Parse(x.Attribute("id").Value) == DistrictID);
+            var xElement = xmlDoc.Element("Root").Elements("Item").Elements("Item")
+                .Single(x => x.Attribute("type").Value == "district" && int.Parse(x.Attribute("id").Value) == DistrictID);
             var list = new List<PrecinctModel>();
             PrecinctModel precinct = null; 
             foreach (var item in xElement.Elements("Item").Where(x => x.Attribute("type").Value == "precinct"))
