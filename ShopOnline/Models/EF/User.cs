@@ -37,6 +37,9 @@
         public string Phone { get; set; }
 
         public bool Status { get; set; }
+
+        [StringLength(20)]
+        public string GroupID { get; set; }
     }
 }
 

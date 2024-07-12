@@ -23,7 +23,7 @@ namespace ShopOnline.Areas.Admin.Controllers
             {
 
                 var dao = new UserDao();
-                var result = dao.Login(model.UserName, Encryptor.MD5Hash(model.Password));
+                var result = dao.Login(model.UserName, Encryptor.MD5Hash(model.Password),true);
                 if (result==1)
                 {
                     var user=dao.GetByID(model.UserName);
@@ -50,6 +50,12 @@ namespace ShopOnline.Areas.Admin.Controllers
                     if (result == -2)
                 {
                     ModelState.AddModelError("", "Mật khẩu không chính xác");
+                }
+                else
+
+                    if (result == -3)
+                {
+                    ModelState.AddModelError("", "Tài khoản của bạn không có quyền đăng nhập");
                 }
                 else
                 {

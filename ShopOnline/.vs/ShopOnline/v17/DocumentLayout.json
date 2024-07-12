@@ -3,52 +3,72 @@
   "WorkspaceRootPath": "D:\\QTS\\C#\\MVC\\ShopOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\controllers\\testdropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\testdropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\models\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|d:\\qts\\c#\\mvc\\shoponline\\models\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D067C7CE-46BD-47F9-8588-EA7328BC0E67}|Common\\Common.csproj|d:\\qts\\c#\\mvc\\shoponline\\common\\commonconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D067C7CE-46BD-47F9-8588-EA7328BC0E67}|Common\\Common.csproj|solutionrelative:common\\commonconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\models\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\dao\\productdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\assets\\client\\js\\controller\\basecontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\assets\\client\\js\\controller\\basecontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\assets\\client\\js\\controller\\basecontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|d:\\qts\\c#\\mvc\\shoponline\\models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDC0C17-979C-4F76-A2AD-D0279BA4336A}|Models\\Models.csproj|solutionrelative:models\\ef\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|d:\\qts\\c#\\mvc\\shoponline\\shoponline\\controllers\\testdropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\testdropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\models\\districtmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\models\\usermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\models\\usermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75BD117B-DB35-4773-9BE5-EED4B2760787}|ShopOnline\\ShopOnline.csproj|D:\\QTS\\C#\\MVC\\ShopOnline\\shoponline\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -134,102 +146,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAF4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T08:23:58.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductDao.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\ProductDao.cs",
-              "RelativeDocumentMoniker": "Models\\Dao\\ProductDao.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\ProductDao.cs",
-              "RelativeToolTip": "Models\\Dao\\ProductDao.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAYwCUAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T06:44:06.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAewBUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T04:34:57.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDao.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
-              "RelativeDocumentMoniker": "Models\\Dao\\UserDao.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
-              "RelativeToolTip": "Models\\Dao\\UserDao.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAjwEEAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T03:55:18.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ShopOnline\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAWwBMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T02:58:54.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopOnline\\Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "ShopOnline\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwB8AAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T08:30:47.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ShopOnline\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHIAAAAqAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAF0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T02:37:22.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBkAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T02:30:47.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ShopOnline\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAqwNAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T01:22:40.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Controllers\\HomeController.cs",
@@ -242,26 +202,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "baseController.js",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
-              "RelativeDocumentMoniker": "ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
-              "RelativeToolTip": "ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-11T06:25:13.281Z",
+              "DocumentIndex": 0,
+              "Title": "TestDropdownController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\TestDropdownController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\TestDropdownController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\TestDropdownController.cs",
+              "RelativeToolTip": "ShopOnline\\Controllers\\TestDropdownController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T07:41:57.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T02:29:08.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T08:30:47.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDao.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
+              "RelativeDocumentMoniker": "Models\\Dao\\UserDao.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\UserDao.cs",
+              "RelativeToolTip": "Models\\Dao\\UserDao.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwIMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T03:55:18.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAADgvxUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T04:34:57.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CommonConstants.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Common\\CommonConstants.cs",
+              "RelativeDocumentMoniker": "Common\\CommonConstants.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Common\\CommonConstants.cs",
+              "RelativeToolTip": "Common\\CommonConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T02:06:29.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDao.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\ProductDao.cs",
+              "RelativeDocumentMoniker": "Models\\Dao\\ProductDao.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\Dao\\ProductDao.cs",
+              "RelativeToolTip": "Models\\Dao\\ProductDao.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAYwCUAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T06:44:06.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
               "RelativeDocumentMoniker": "Models\\EF\\User.cs",
               "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\User.cs",
               "RelativeToolTip": "Models\\EF\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA7wCoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T02:56:56.674Z",
               "EditorCaption": ""
@@ -269,6 +307,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T01:41:28.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShopOnline\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwBMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T02:58:54.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAF4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T08:23:58.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "baseController.js",
+              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
+              "RelativeDocumentMoniker": "ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
+              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
+              "RelativeToolTip": "ShopOnline\\Assets\\client\\js\\Controller\\baseController.js",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T06:25:13.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Views\\Home\\Index.cshtml",
@@ -276,25 +363,11 @@
               "RelativeToolTip": "ShopOnline\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T06:15:23.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T06:15:23.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TestDropdownController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\TestDropdownController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\TestDropdownController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\TestDropdownController.cs",
-              "RelativeToolTip": "ShopOnline\\Controllers\\TestDropdownController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T07:41:57.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "DistrictModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\DistrictModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\DistrictModel.cs",
@@ -302,12 +375,11 @@
               "RelativeToolTip": "ShopOnline\\Models\\DistrictModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T08:12:12.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T08:12:12.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "PrecinctModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\PrecinctModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\PrecinctModel.cs",
@@ -315,12 +387,11 @@
               "RelativeToolTip": "ShopOnline\\Models\\PrecinctModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:24:55.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T09:24:55.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TestDropdown.js",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\js\\Controller\\TestDropdown.js",
               "RelativeDocumentMoniker": "ShopOnline\\Assets\\client\\js\\Controller\\TestDropdown.js",
@@ -328,12 +399,11 @@
               "RelativeToolTip": "ShopOnline\\Assets\\client\\js\\Controller\\TestDropdown.js",
               "ViewState": "AQIAAEIAAAAAAAAAAAAIwEcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-10T07:52:10.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T07:52:10.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Provinces_Data.xml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Assets\\client\\data\\Provinces_Data.xml",
               "RelativeDocumentMoniker": "ShopOnline\\Assets\\client\\data\\Provinces_Data.xml",
@@ -341,12 +411,11 @@
               "RelativeToolTip": "ShopOnline\\Assets\\client\\data\\Provinces_Data.xml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-07-10T10:02:51.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T10:02:51.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "TestDropdownModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\TestDropdownModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\TestDropdownModel.cs",
@@ -358,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\TestDropdown\\Index.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Views\\TestDropdown\\Index.cshtml",
@@ -370,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProvinceModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\ProvinceModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\ProvinceModel.cs",
@@ -382,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Views\\User\\Create.cshtml",
@@ -394,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Payment.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\Cart\\Payment.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Views\\Cart\\Payment.cshtml",
@@ -406,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\UserModel.cs",
@@ -418,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\RegisterModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\RegisterModel.cs",
@@ -430,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\Models\\EF\\Product.cs",
               "RelativeDocumentMoniker": "Models\\EF\\Product.cs",
@@ -442,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "UserModels.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Models\\UserModels.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Models\\UserModels.cs",
@@ -454,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "ShopOnline\\Models\\LoginModel.cs",
@@ -466,19 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ShopOnline\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAqwJMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T01:22:40.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "ShopOnline\\Views\\User\\Login.cshtml",
@@ -490,19 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ShopOnline\\Areas\\Admin\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:30:47.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "readme.txt",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\packages\\Facebook.7.0.6\\readme.txt",
               "RelativeDocumentMoniker": "packages\\Facebook.7.0.6\\readme.txt",
@@ -514,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\QTS\\C#\\MVC\\ShopOnline\\ShopOnline\\Web.config",
               "RelativeDocumentMoniker": "ShopOnline\\Web.config",

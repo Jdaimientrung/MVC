@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using PagedList;
 using System.Web;
-
+using Common;
 namespace Models.Dao
 {
     public class UserDao
@@ -101,7 +101,7 @@ namespace Models.Dao
             db.SaveChanges();
             return user.Status;
         }
-        public int Login(string userName, string password)
+        public int Login(string userName, string password, bool isLoginAdmin = false)
         {
             var result = db.Users.SingleOrDefault(x => x.UserName == userName);
             if (result == null)
@@ -111,32 +111,58 @@ namespace Models.Dao
             }
             else
             {
-                if (result.Status == false)
+                if (isLoginAdmin == true)
                 {
-                    return -1;
-                }
-                else
-                {
-                    if (result.Password == password)
+                    if (result.GroupID == CommonConstants.ADMIN_GROUP)
                     {
-                        return 1;
+                        if (result.Status == false)
+                        {
+                            return -1;
+                        }
+                        else
+                        {
+                            if (result.Password == password)
+                            {
+                                return 1;
+                            }
+                            else
+                            {
+                                return -2;
+                            }
+                        }
                     }
                     else
                     {
-                        return -2;
+                        return -3;
                     }
                 }
-
+                else
+                {
+                    if (result.Status == false)
+                    {
+                        return -1;
+                    }
+                    else
+                    {
+                        if (result.Password == password)
+                        {
+                            return 1;
+                        }
+                        else
+                        {
+                            return -2;
+                        }
+                    }
+                }
             }
-
         }
         public bool CheckUserName(string userName)
         {
-            return db.Users.Count(x => x.UserName == userName)>0;
+            return db.Users.Count(x => x.UserName == userName) > 0;
         }
         public bool CheckEmail(string email)
         {
-            return db.Users.Count(x=>x.Email == email)>0;
+            return db.Users.Count(x => x.Email == email) > 0;
         }
 
     }
