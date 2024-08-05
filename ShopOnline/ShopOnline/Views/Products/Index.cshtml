@@ -1,0 +1,74 @@
+﻿@model PagedList.IPagedList<Models.EF.Product>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //var listProduct = (List<Models.EF.Product>)ViewBag.Products;
+}
+<div class="prdt">
+    
+    <div class="container">
+        @using (Html.BeginForm("Index", "Products", FormMethod.Get))
+        {
+            <div class="col-md-4 ">
+                <input type="text" value="@ViewBag.SearchString" class="form-control" name="searchString" />
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-success">Tìm kiếm</button>
+            </div>
+        }
+        <hr />
+        <div class="prdt-top">
+
+            <div class="product-one">
+                <div class="col-md-9 prdt-left">
+
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div class="col-md-4 product-left p-left">
+                                <div class="product-main simpleCart_shelfItem">
+                                    <a href="@Url.Action("Details", "Products", new {id=item.ProductID  })" class="mask"><img class="img-responsive zoom-img" src="~/Assets/client/images/p-1.png" alt="" /></a>
+                                    <div class="product-bottom">
+                                        <h3>@item.ProductName.</h3>
+                                        <p>Explore Now</p>
+                                        <h4>
+                                            <a class="item_add" href="">
+                                                <i></i><span class=" item_price">$ @item.UnitPrice</span>
+                                                <form action="/Cart/AddItem" method="post">
+                                                    <input type="hidden" name="productId" value="@item.ProductID" />
+                                                    <input type="hidden" name="quantity" value="1" />
+                                                    <button type="submit" class=" item_add">ADD TO CART</button>
+                                                </form>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="srch srch1">
+                                        <span>-50%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+
+                    }
+                    else
+                    {
+                        < tr >
+                        < td colspan = "7" > No data available.</ td >
+                        </ tr >
+                    }
+
+
+                    <div class="clearfix"></div>
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+

@@ -1,0 +1,113 @@
+﻿@model PagedList.IPagedList<Models.EF.User>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Quản lý người dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Quản lý người dùng</h1>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Danh sách người dùng
+                @using (Html.BeginForm("Index", "User", FormMethod.Get))
+                {
+                    <div class="row form-group">
+                        <div class="col-lg-12">
+                            <div class="col-md-4">
+                                <input type="text" value="@ViewBag.SearchString" class="form-control" name="searchString" />
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-success">Tìm kiếm</button>
+                                <a href="/Admin/User/Create" class="btn btn-primary">Thêm mới</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    @*id="datatablesSimple"*@
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>User Name</th>
+                            <th>Full Name</th>
+                            <th>Address</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            var stt = (Model.PageNumber - 1) * Model.PageSize + 1; // Bắt đầu STT cho phân trang
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@stt</td>
+                                    <td>@item.UserName</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Address</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.Phone</td>
+                                    <td><button name="changeStatus" value="@item.UserID">@(item.Status ? "Active" : "Blocked")</button></td>
+                                    @*<td>@(item.Status ? "Active" : "Blocked")</td>*@
+                                    <td>
+
+                                        @*<a href="User/Edit/@item.UserID">Edit</a>
+                                            |
+                                             <a href="User/Delete/@item.UserID">Remove</a>*@
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.UserID }) |
+                                        @using (Html.BeginForm("Delete", "User", FormMethod.Post))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            @Html.Hidden("id", item.UserID)
+                                            <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+                                        }
+                                    </td>
+                                </tr>
+                                stt++;
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="7">No data available.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @searchString = @ViewBag.SearchString }))
+            </div>
+        </div>
+    </div>
+</main>
+@section  Scripts
+{
+    <script type="text/javascript">
+
+        $('button[name="changeStatus"]').click(function () {
+            var id = $(this).val();
+
+            $.post('/Admin/User/ChangeStatus', { id: id }, function (res) {
+                if (res.type === 'success') {
+                    console.log(res.message);
+                    // Update the button text based on the new status
+                    var button = $('button[value="' + id + '"]');
+                    button.text(res.message.includes('kích hoạt') ? 'Active' : 'Blocked');
+                } else {
+                    alert('Error: ' + res.message);
+                }
+
+            });
+
+
+        });
+    </script>
+}
